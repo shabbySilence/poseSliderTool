@@ -11,7 +11,7 @@ import os
 from functools import partial
 import maya.utils as utils
 #
-__author__ = "ran.li"
+
 
 def undo_pm(func):
     def wrapper(*args, **kwargs):
