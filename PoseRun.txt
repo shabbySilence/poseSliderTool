@@ -1,0 +1,5 @@
+﻿import sys
+sys.path.append(r"……\PoseSliderTooll")
+import PoseSliderTool
+reload(PoseSliderTool);
+PoseSliderTool.create()
